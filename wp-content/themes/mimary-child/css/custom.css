@@ -18,11 +18,35 @@
   font-style: normal;
 }
 
+/*======= Global Rules ====*/
 
-body{
-	font-family: "Gravity-Regular";
+body,.widget-title{
+	font-family: "Gravity-Regular" !important;
 }
 
-h1,h2,h3,h4{
-	font-family: "Gravity-Bold";
+h1,h2,h3,h4,ul#primary-menu.main-nav > li > a .menu-text{
+	font-family: "Gravity-Bold" !important;
 }
+/*======= Global Rules ====*/
+/*======= Header Begin ========*/
+ul#primary-menu span.menu-text{
+	text-transform: uppercase;
+}
+
+/*======= Header End ========*/
+/*======= Footer Begin =========*/
+
+.mailster-wrapper.mailster-submit-wrapper.form-submit {
+    display: inline-block;
+    width: 20%;
+}
+
+.mailster-wrapper.mailster-email-wrapper {
+    width: 75%;
+    display: inline-block;
+}
+input.submit-button.button {
+    width: 100%;
+    text-transform: uppercase;
+}
+/*======= Footer End =========*/
