@@ -1,1 +1,28 @@
+@font-face {
+  font-family: 'Gravity-Bold';
+  src: url('../fonts/Gravity-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Gravity-Bold.woff') format('woff'), 
+    url('../fonts/Gravity-Bold.ttf')  format('truetype'), 
+    url('../fonts/Gravity-Bold.svg#Gravity-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 
+@font-face {
+  font-family: 'Gravity-Regular';
+  src: url('../fonts/Gravity-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Gravity-Regular.woff') format('woff'), 
+    url('../fonts/Gravity-Regular.ttf')  format('truetype'), 
+    url('../fonts/Gravity-Regular.svg#Gravity-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body{
+	font-family: "Gravity-Regular";
+}
+
+h1,h2,h3,h4{
+	font-family: "Gravity-Bold";
+}
