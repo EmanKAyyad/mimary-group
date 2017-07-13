@@ -10,3 +10,11 @@ RewriteRule . /mimary-website/index.php [L]
 </IfModule>
 
 # END WordPress
+
+# Prevent folder browsing
+Options All -Indexes
+
+<files wp-config.php>
+order allow,deny
+deny from all
+</files>
