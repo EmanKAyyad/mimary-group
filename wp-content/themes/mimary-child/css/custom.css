@@ -27,6 +27,10 @@ body,.widget-title{
 h1,h2,h3,h4,ul#primary-menu.main-nav > li > a .menu-text{
 	font-family: "Gravity-Bold" !important;
 }
+
+.btn-3d #place_order:active:after, .btn-3d .button.wc-backward:active:after, .btn-3d .checkout-button:active:after, .btn-3d .dt-btn:not(.btn-light):not(.light-bg-btn):not(.outline-btn):not(.outline-bg-btn):active:after, .btn-3d .dt-form button:active:after, .btn-3d .dt-wc-btn:active:after, .btn-3d .mc4wp-form input[type=submit]:active:after, .btn-3d .nsu-submit:active:after, .btn-3d .post-password-form input[type=submit]:active:after, .btn-3d .single_add_to_cart_button.button:active:after, .btn-3d .tml-submit-wrap input[type=submit]:active:after, .btn-3d .track_order input[name=track]:active:after, .btn-3d .widget .dt-form .dt-btn:active:after, .btn-3d .woocommerce-Button.button:active:after, .btn-3d .woocommerce-Button[name=register]:active:after, .btn-3d .woocommerce-Reviews .submit:active:after, .btn-3d .wpcf7-form input[type=submit]:active:after, .btn-3d .wpcf7-submit:active:after, .btn-3d a.button:active:after, .btn-3d button.button:active:after, .btn-3d button[name=calc_shipping]:active:after, .btn-3d div.mc4wp-form button[type=submit]:active:after, .btn-3d input#place_order:active:after, .btn-3d input[name=apply_coupon]:active:after, .btn-3d input[name=login]:active:after, .btn-3d input[name=save_address]:active:after, .btn-3d input[type=reset]:active:after, .btn-3d input[type=submit]:not([name=update_cart]):active:after, .btn-flat #place_order:active:after, .btn-flat .button.wc-backward:active:after, .btn-flat .checkout-button:active:after, .btn-flat .dt-btn:not(.btn-light):not(.light-bg-btn):not(.outline-btn):not(.outline-bg-btn):active:after, .btn-flat .dt-form button:active:after, .btn-flat .dt-wc-btn:active:after, .btn-flat .mc4wp-form input[type=submit]:active:after, .btn-flat .nsu-submit:active:after, .btn-flat .post-password-form input[type=submit]:active:after, .btn-flat .single_add_to_cart_button.button:active:after, .btn-flat .tml-submit-wrap input[type=submit]:active:after, .btn-flat .track_order input[name=track]:active:after, .btn-flat .widget .dt-form .dt-btn:active:after, .btn-flat .woocommerce-Button.button:active:after, .btn-flat .woocommerce-Button[name=register]:active:after, .btn-flat .woocommerce-Reviews .submit:active:after, .btn-flat .wpcf7-form input[type=submit]:active:after, .btn-flat .wpcf7-submit:active:after, .btn-flat a.button:active:after, .btn-flat button.button:active:after, .btn-flat button[name=calc_shipping]:active:after, .btn-flat div.mc4wp-form button[type=submit]:active:after, .btn-flat input#place_order:active:after, .btn-flat input[name=apply_coupon]:active:after, .btn-flat input[name=login]:active:after, .btn-flat input[name=save_address]:active:after, .btn-flat input[type=reset]:active:after, .btn-flat input[type=submit]:not([name=update_cart]):active:after{
+	background-color: transparent !important;
+}
 /*======= Global Rules ====*/
 /*======= Header Begin ========*/
 ul#primary-menu span.menu-text{
@@ -75,6 +79,13 @@ span.Social.media>a {
     text-transform: uppercase;
 }
 /*======= Footer End =========*/
+/*======= Homepage Begin ========*/
+div#homepage-video {
+    text-align: center;
+}
+
+
+/*======= Homepage End ========*/
 /*======= Media Queries Begin ========*/
 @media screen and (max-width: 1100px){
 	
