@@ -83,7 +83,7 @@ span.Social.media>a {
 div#homepage-video {
     text-align: center;
 }
-.our-developments .dt-fancy-title::after,.events .dt-fancy-title::after{
+.our-developments .dt-fancy-title::after,.events .dt-fancy-title::after,.under-construction .dt-fancy-title::after{
 	
 	content: " ";
 	display: block;
