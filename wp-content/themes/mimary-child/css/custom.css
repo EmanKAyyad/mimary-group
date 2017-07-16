@@ -83,7 +83,14 @@ span.Social.media>a {
 div#homepage-video {
     text-align: center;
 }
-
+.our-developments .dt-fancy-title::after{
+	
+	content: " ";
+	display: block;
+	width: 20%;
+	border: 2px solid #ff0000;
+	margin: 0 auto;
+}
 
 /*======= Homepage End ========*/
 /*======= Media Queries Begin ========*/
